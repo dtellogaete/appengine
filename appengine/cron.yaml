@@ -1,0 +1,5 @@
+cron:
+- description: "daily insert into documents"
+  url: /main.py
+  schedule: every 1 mins
+  timezone: America/Santiago
